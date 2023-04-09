@@ -1,0 +1,23 @@
+.position{
+  text-align: center;
+}
+
+.text1{
+  font-size: 75px;
+  font-family: 黑体;
+  color:aliceblue;
+}
+
+.text2{
+  font-size: 25px;
+  font-family: 黑体;
+  color:rgb(255, 255, 255);
+}
+
+.bcimgs{
+  background-image: url("./imgs/rainbowSix.jpg");
+}
+
+.bgcolor{
+  background-color: rgb(209, 210, 180);
+}

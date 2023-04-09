@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style: none;
+}
+
+#mark2{
+  overflow: hidden;
+  height: 360px;
+}
+
+#mark1 ul{
+  position: relative;
+}
+
+#mark1 li{
+  width: 1080px;
+  height: 1980px;
+  position: absolute;
+}
+
+@keyframes animation1{
+  0%{top: 0px;}
+  20%{top:0px}
+  40%{top:360px}
+  100%{top: 720px;}
+}
+
+@keyframes animation2{
+  0%{top: -360px;}
+  20%{top:-360px}
+  40%{top:0px}
+  60%{top:0px}
+  80%{top:360px}
+  100%{top: 720px;}
+}
+
+@keyframes animation3{
+  0%{top: -720px;}
+  60%{top:-360px}
+  80%{top:0px}
+  100%{top: 0px;}
+}
+
+#mark1{
+  width: 1080px;
+  height: 1980px;
+  margin: 40px auto 0;
+  overflow: visible;
+  position: relative;
+}
+
+#No1{
+  animation: animation1 12s linear infinite;
+}
+
+#No2{
+  animation: animation2 12s linear infinite;
+}
+
+#No3{
+  animation: animation3 12s linear infinite;
+}
+
+#mark1:hover li{
+  animation-play-state: paused;
+}
